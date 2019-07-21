@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhi.trainingplacement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/t_p1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterCompany" />
+        <activity android:name=".ViewCompany" />
+        <activity android:name=".UserRegistration" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".StudentProfile" />
+        <activity android:name=".RegisterComp" />
+        <activity android:name=".RegisterForDrive" />
+        <activity android:name=".StudentList" />
+        <activity android:name=".CheckEligibility" />
+        <activity android:name=".RegisterComp2"></activity>
+    </application>
+
+</manifest>
