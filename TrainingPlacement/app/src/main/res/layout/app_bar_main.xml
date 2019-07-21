@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:theme="@style/AppTheme"
+            android:background="?attr/colorAccent"
+            android:id="@+id/toolbar_main"
+            android:alpha="0.9">
+
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:id="@+id/layout_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/t_p1"
+                    android:scaleType="fitXY"
+                    android:layout_toLeftOf="@+id/heading"
+                    android:id="@+id/logo"
+                    android:autoLink="web"
+                    android:clickable="true"
+                    />
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="T&amp;P Cell"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

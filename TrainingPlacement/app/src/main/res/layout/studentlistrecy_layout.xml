@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="horizontal"
+        android:layout_margin="10dp"
+        android:elevation="3dp"
+        app:cardCornerRadius="@dimen/activity_horizontal_margin"
+        app:cardElevation="23dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:id="@+id/logo1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.2"
+                android:layout_gravity="center"
+                android:src="@drawable/icon1" />
+
+
+            <TextView
+                android:id="@+id/regStudName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/logo1"
+                android:text="Student Name"
+                android:textColor="#2d5986"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/regStudEligi"
+                android:layout_width="wrap_content"
+               android:layout_toRightOf="@+id/logo1"
+                android:layout_below="@+id/regStudName"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginTop="5dp"
+                android:text="Eligibilty"
+                android:textColor="#2d5986"
+                android:textSize="14dp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+

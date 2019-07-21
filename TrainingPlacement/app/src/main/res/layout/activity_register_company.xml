@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterCompany"
+    android:background="@drawable/grad"
+    android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="12dp"
+                app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER YOUR COMPANY"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#2d5986"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Id"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyId"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company Id"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Name"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyName"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company Name"
+                android:textSize="16dp"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company GPA% Criteria"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/cmpGpa"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company Name"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company 12% Criteria"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/cmptwelveth"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company 12% Criteria"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company 10% Criteria"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/cmptenth"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company 10% Criteria"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Details"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyDetail"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company details"
+                android:textSize="16dp"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Venue for drive"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyVenue"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company venue for drive"
+                android:textSize="16dp"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company vacancy"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyVacancy"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company vacancy"
+                android:textSize="16dp"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posts available"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyPost"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:inputType="number"
+                android:hint="Enter Company posts available"
+                android:textSize="16dp"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Vision"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyVision"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company Vision"
+                android:textSize="16dp"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Mission"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/companyMission"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="5dp"
+                android:hint="Enter Company Mission"
+                android:textSize="16dp"
+                android:background="@drawable/editback"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:text="Save and Submit"
+                android:background="#2d5986"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="22dp"
+                android:textColor="#fff"
+                android:id="@+id/buttonCreateCompany"/>
+
+
+        </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_noti"
+            android:icon="@drawable/noti"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_regComp"
+            android:icon="@drawable/ic_upcomp"
+            android:title="Registered companies" />
+        <item
+            android:id="@+id/form"
+            android:icon="@drawable/ic_regcomp"
+            android:title="Register for drive" />
+    </group>
+
+    <item android:title="Advanced"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_about"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_review"
+                android:title="Reach us" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fffafa"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.smarteist.autoimageslider.SliderLayout
+        android:id="@+id/imageSlider1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:layout_marginTop="57dp"
+        android:alpha="0.9" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="22dp"
+        app:cardCornerRadius="8dp"
+        android:layout_weight="0.5"
+        app:cardElevation="12dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:nestedScrollingEnabled="false"
+            android:scrollbars="vertical" />
+
+    </android.support.v7.widget.CardView>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="22dp"
+        android:layout_weight="0.1"
+        android:alpha="0.9"
+        android:background="#2d5986"
+        android:text="Register your company"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+</LinearLayout>
+
+
