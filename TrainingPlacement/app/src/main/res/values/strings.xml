@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Training and Placement Cell</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutus">The Training and Placement Cell of the institute handles all aspects of placements at PU 
+        for the students of all departments. It is a student body, directly under the supervision of the honourable Director,
+        headed by the Training and Placement Officer and guided by the Faculty Advisers .The Cell stands for branding the
+        outlook of the university to the corporate and the industry.
+The Training and Placement Officer, Coordinators and the student representatives handle various crucial tasks in the Cell like
+        reaching out to companies, scheduling and executing placement related activities and carrying out all official 
+        communication with recruiters and students. The Cell strives to match recruiter expectations with students’ 
+        aspirations. The team of student representatives coordinate the activities to ensure compliance with various institute 
+        policies and company officials, who execute coordination with their recruiting organisations. Over the years the Cell
+        has gone from strength to strength in 
+        achieving outstanding placements at PU and will continue to do so in the years to come.</string>
+    <string name="vacancy">vacancy</string>
+    <string name="gpa">GPA</string>
+    <array name="criteria">
+        <item>Above 60%,Above 60%,Above 65%</item>
+        <item>Above 55%,Above 55%,Above 65%</item>
+    </array>
+</resources>
